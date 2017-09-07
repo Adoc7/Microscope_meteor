@@ -1,0 +1,26 @@
+<template name="layout">
+    <div class="container">
+        {{>header}}
+        {{> errors}}
+        <div id="main">
+            {{> yield}}
+        </div>
+    </div>
+</template>
+
+
+
+
+<!--<template name="layout">-->
+    <!--<div class="container">-->
+    <!--<header class="navbar navbar-default" role="navigation">-->
+        <!--<div class="navbar-header">-->
+            <!--&lt;!&ndash;<a class="navbar-brand" href="{{pathFor 'postsList'}}">Coda Food</a>&ndash;&gt;-->
+            <!--<a class="navbar-brand" href="{{pathFor 'postsList'}}">{{pageTitle}}</a>-->
+        <!--</div>-->
+    <!--</header>-->
+    <!--<div id="main">-->
+        <!--{{> yield}}-->
+    <!--</div>-->
+<!--</div>-->
+<!--</template>-->
